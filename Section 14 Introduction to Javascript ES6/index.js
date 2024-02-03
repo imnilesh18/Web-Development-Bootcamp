@@ -59,115 +59,109 @@ x++; // x = x + 1
 x += x; //12
 
 // Functions
-function getMilk() {   
-    console.log("leaveHouse");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("enterHouse");
-  }
+function getMilk() {
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
 
 getMilk();
 
 function getMilk(money) {   
-    console.log("leaveHouse");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveRight");
-    console.log("moveRight");
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
       
-    var numberOfBottles = Math.floor(money / 1.5);
+  var numberOfBottles = Math.floor(money / 1.5);
       
-    console.log("buy " + numberOfBottles + " bottles of Milk"); 
+  console.log("buy " + numberOfBottles + " bottles of Milk"); 
       
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("enterHouse");
-  }
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
   
 getMilk(5); // Output: buy 3 bottles of Milk
 
+function lifeInWeeks(age) {
+  var days = 90*365-(age*365);
+  var weeks = 90*52-(age*52);
+  var months = 90*12 -(age*12);
+  console.log("You have " + days + " days, " + weeks +" weeks, and " + months + " months left.");
+}
+
 function getMilk(money, costPerBottle) {   
-    console.log("leaveHouse");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveRight");
-    console.log("moveRight");
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
     
-    console.log("buy " + calcBottles(money, costPerBottle) + " bottles of Milk"); 
+  console.log("buy " + calcBottles(money, costPerBottle) + " bottles of Milk"); 
       
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("enterHouse");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
   
-    return calcChange(money, costPerBottle);
-  }
+  return calcChange(money, costPerBottle);
+}
   
-  function calcBottles(startingMoney, costPerBottle){
-      var numberOfBottles = Math.floor(startingMoney / costPerBottle);
-      return numberOfBottles;
-  }
+function calcBottles(startingMoney, costPerBottle){
+  var numberOfBottles = Math.floor(startingMoney / costPerBottle);
+  return numberOfBottles;
+}
   
-  function calcChange(startingAmount, costPerBottle){
-      var change = startingAmount % costPerBottle;
-      return change;
-  }
+function calcChange(startingAmount, costPerBottle){
+  var change = startingAmount % costPerBottle;
+  return change;
+}
   
 console.log("Hello master, here is your " + getMilk(5, 1.5) + " change");
 
 // BMI
 function bmiCalculator(weight, height){
-    var bmi = weight/(height*height);
-    return bmi;
+  var bmi = weight/(height*height);
+  return bmi;
 }
 
 function bmiCalculator(weight, height){
-    var bmi = weight / Math.pow(height, 2);
-    return Math.round(bmi);
+  var bmi = weight / Math.pow(height, 2);
+  return Math.round(bmi);
 }
-
-
-
-
-
-
-  
-
-
-
-
-
-
