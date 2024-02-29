@@ -1,0 +1,20 @@
+ls
+cd ~ (go to root directory)
+clear
+cd Documents/Learn/Languages/
+cd .. -> one directory back
+cd and then drag and drop
+ctrl + a to move to start
+ctrl + e to move to end
+ctrl + u to clear the current written command
+mkdir Nilesh
+touch text2.txt
+start text2.txt (for mac-> open text2.txt)
+code text2.txt ( for mac -> -a /Applications/Visual\ Studio\ Code.app text2.txt)
+rm text.txt ( to remove file)
+pwd (print working directory) (output current location path example-> /c/Users/NILESH KUMAR/Nilesh)
+rm * ( all files will be deleted from current directory)
+rm -r Nilesh/ (to remove directory)
+(be very carefull while removing) 
+
+
