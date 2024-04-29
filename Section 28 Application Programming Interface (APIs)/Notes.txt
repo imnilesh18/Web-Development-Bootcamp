@@ -1,0 +1,23 @@
+Postman - https://api.wheretheiss.at/v1/satellites/25544
+to get the current live latitude, longitude of ISS
+
+
+#API
+https://bored-api.appbrewery.com/
+
+#API Endpoint
+GET https://bored-api.appbrewery.com/random
+
+#Query Parameters
+GET https://bored-api.appbrewery.com/filter?type=education
+
+#Multiple Query Parameters
+https://bored-api.appbrewery.com/filter?type=social&participants=2
+
+#Path Parameters
+Returns the activity with the specified key.
+https://bored-api.appbrewery.com/activity/5914292
+Host a movie marathon with some friends
+
+
+JSON - JavaScript Object Notation
