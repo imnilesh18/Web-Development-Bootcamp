@@ -21,3 +21,9 @@ Host a movie marathon with some friends
 
 
 JSON - JavaScript Object Notation
+
+https://secrets-api.appbrewery.com/
+0. No Authentication
+1. Basic Authentication
+2. API key Authorisation
+3. Token Based Authentication
