@@ -1,4 +1,24 @@
-node -v
+Why use Framework: Mayonnaise
+Reuse components. Reduce  overhead
+
+Node: "An asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications." -- According to Node.js
+
+Node uses V8 Engine(written in C and C++)
+JS can be used to run in browser but with node we can run in both desktop or server site. like own local computer
+
+Asynchronous event driven mean: example- delivery of Amazon parcel
+
+Node helps to build application on computer using JavaScript, server - own computer  not browser.
+Node - Popular, JavaScript Fullstack, Scales(for large scale professional projects), Non-blocking, Ecosystem(npm).
+
+
+
+
+
+node -v -> to check node version installed.
+Node REPL -> Node Read Eval Print Loop 
+is a computer environment where user inputs are read and evaluated, and then the results are returned to the user.
+To initiate Node REPL: command
 node
 Welcome to Node.js v20.11.0.
 Type ".help" for more information.
@@ -27,8 +47,19 @@ undefined
 index.js
 console.log("Hello From Node!");
 
+you can hit tab to check if you're in the same directory.
 node index.js 
 Hello From NodeJS!
+
+Native Node Modules:
+What are Native Modules?
+starting tool set, already 
+
+
+
+
+
+
 
 
 
