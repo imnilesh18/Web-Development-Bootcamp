@@ -55,7 +55,36 @@ Native Node Modules:
 What are Native Modules?
 starting tool set, already 
 
+NPM
+Node Package Manager
+It's basically a place which collects multiple modules that people have built for Node and it's created by GitHub organization and it's a really great place to find code that other people have written with utilities and tools to help you with writing your Node applications.
 
+Native Node Module: starting tool set then NPM is weird and wonderful tools.
+NPM : Community tool library
+
+npm init
+initialization utility: package.json will be created
+
+
+Install NPM Package:
+npm install <something(name of the package)>
+
+npm i sillyname
+
+npm i sillyname other_package1 other_package2 (means you can give space to install other packages also in same command)
+
+it'll add dependencies in package.json
+
+also node_module folder will be created
+
+ESM: ECMAScript Modules, uses "import" keyword
+CJS : CommonJS , uses: "require" keyword
+to use ESM: package.json, "type": "module",
+
+import xxx from "string"
+xxx : method or object that we want to import
+from
+string: specifies which package or module we want to get hold of this thing from.
 
 
 
