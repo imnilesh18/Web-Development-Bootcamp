@@ -22,6 +22,12 @@ Host a movie marathon with some friends
 
 JSON - JavaScript Object Notation
 
+JS Object -> JSON
+const jsonData = JSON.stringify(data);
+
+JSON -> JS Object
+const data = JSON.parse(jsonData);
+
 https://secrets-api.appbrewery.com/
 0. No Authentication
 1. Basic Authentication
